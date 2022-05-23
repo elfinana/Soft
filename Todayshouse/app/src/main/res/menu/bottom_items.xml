@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:title="홈"/>
+
+    <item
+        android:id="@+id/store"
+        android:icon="@drawable/ic_baseline_store"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:title="스토어"/>
+
+    <item
+        android:id="@+id/interior"
+        android:icon="@drawable/interior"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:title="인테리어시공"/>
+
+    <item
+        android:id="@+id/mypage"
+        android:icon="@drawable/user"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:title="마이페이지"/>
+
+    <item
+        android:id="@+id/plus"
+        android:icon="@drawable/plus"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:title=""/>
+</menu>
